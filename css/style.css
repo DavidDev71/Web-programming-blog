@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.div-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.pad-custom, div#article, div.align-custom {
+    width: 60%;
+}
+
+div.img-1 {
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../img/teclado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h2 a {
+    font-weight: 500;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+p {
+    line-height: 2.5;
+    font-weight: 400;
+}
+
+h2:hover {
+    color: #0B5ED7;
+}
+
+
+
+p.bye {
+    margin-top: 5rem;
+}
+
+div#form-final {
+ background-color: rgb(238, 242, 246);
+ padding: 3rem 1rem 1rem 3rem;
+}
+
